@@ -10,5 +10,5 @@ services:
       - /home/banditecho/freac-config:/config
       - /mnt/nas-media/Media/Audio-ripped:/output
     devices:
-      - /dev/sr1:/dev/sr0
+      - ${OPTICAL_DRIVE_PATH}:/dev/sr0
     restart: unless-stopped
