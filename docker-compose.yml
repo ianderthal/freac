@@ -7,7 +7,7 @@ services:
     ports:
       - "5800:5800"
     volumes:
-      - /home/banditecho/freac-config:/config
+      - ./freac-config:/config
       - /mnt/nas-media/Media/Audio-ripped:/output
     devices:
       - ${OPTICAL_DRIVE_PATH}:/dev/sr0

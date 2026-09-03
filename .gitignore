@@ -1,0 +1,5 @@
+freac-config/*
+!freac-config/xdg/
+!freac-config/xdg/config/
+!freac-config/xdg/config/.freac/
+!freac-config/xdg/config/.freac/freac.xml
